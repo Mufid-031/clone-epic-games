@@ -8,7 +8,7 @@ import List from "./List";
 
 const Content = (): JSX.Element => {
   return (
-    <section className="mt-20">
+    <section className="mt-20 mr-5 ml-1 w-full">
       <Hero />
       <Carousel />
       <Filter title="Discover Something New" />

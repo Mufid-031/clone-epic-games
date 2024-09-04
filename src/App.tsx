@@ -8,9 +8,7 @@ function App(): JSX.Element {
       <Navbar />
       <div className="grid grid-cols-[1fr_5fr]">
         <Sidebar />
-        <div className="mr-5 ml-1">
-          <Content />
-        </div>
+        <Content />
       </div>
     </>
   );
